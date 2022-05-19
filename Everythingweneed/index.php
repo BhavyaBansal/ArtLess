@@ -6,7 +6,10 @@
   <title>Home</title>
   <style>
     .carousel-item img {
-      height: 450px;
+      /* height: 350px;
+      width: auto!important; */
+    width: 100%!important;
+     height:auto!important; 
     }
 
     /* Cards CSS */
@@ -60,13 +63,13 @@
     <!-- The slideshow/carousel -->
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="images/sheetdsa.png" alt="Los Angeles" class="d-block" style="width: 100%" />
+        <img src="images/sheetdsa2.png" alt="Los Angeles" class="d-block" style="width: 100%" />
       </div>
       <div class="carousel-item">
-        <img src="images/online_courses.png" alt="Chicago" class="d-block" style="width: 100%" />
+        <img src="images/online_courses2.png" alt="Chicago" class="d-block" style="width: 100%" />
       </div>
       <div class="carousel-item">
-        <img src="images/resources.jpg" alt="New York" class="d-block" style="width: 100%" />
+        <img src="images/present.png" alt="New York" class="d-block" style="width: 100%" />
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
@@ -245,6 +248,7 @@
   </div>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
 </body>
 
 </html>

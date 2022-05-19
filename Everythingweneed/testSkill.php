@@ -1,4 +1,15 @@
-<?php session_start() ?>
+<?php
+session_start();
+if(isset($_SESSION['email']))
+{
+    // header('Location:testSkill.php');
+} 
+else{
+    header('Location:login.php');
+    $_SESSION['msgheading']="Warning";
+    $_SESSION['msg']="Login first before accessing this page.";
+}
+?>
 <!DOCTYPE html>
 <!-- Created By CodingLab - www.codinglabweb.com -->
 <html lang="en" dir="ltr">
@@ -734,7 +745,7 @@
     <div class="main-content  mb-0 p-0">
         <div class="header mb-0 pb-8 pt-5 pt-md-3">
             <div class=" mb-0 container-fluid ">
-                <h2 class="mb-5  text-white text-center bg-gradient-primary">Free Online PLACEMENT TEST Practice & Preparation Tests </h2>
+                <h2 class="mb-5  text-white text-center bg-gradient-primary">Free Online Placement Preparation Tests</h2>
                 <div class="header-body ">
                     <div class="row ">
                         <div class="col-xl-4 col-lg-3 col-md-6 mb-3">
@@ -998,7 +1009,6 @@
         </div>
     </div>
     </div>
-
 </body>
 
 </html>

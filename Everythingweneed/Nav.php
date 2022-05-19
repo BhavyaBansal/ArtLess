@@ -17,18 +17,26 @@
       p.navlink{
         margin:0px!important;
       }
-      button{
-        /* background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%); */
-        /* background: linear-gradient(90deg, #d53369 0%, #daae51 100%); */
-        /* background-image: linear-gradient(to right, #003973 0%, #E5E5BE  51%, #003973  100%) */
-          /* background-color: #414145!important; */
-          /* color:white!important; */
-        /* background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%); */
+      #loader{
+         position: fixed;
+         width: 100%;
+         height: 100vh;
+         background-color: #fff;
+         background-image: url('images/loader.gif');
+         background-repeat: no-repeat;
+         background-position: center;
+         z-index: 9999;
+         text-align: center;
       }
-      /* button:hover{
-        background-color: black!important;
-        transition: 2s;
-      } */
+      #loader img{
+        z-index: 99999;
+        position: relative;
+        top: calc(50% - 75px);
+        /* bottom: 50%; */
+        border-radius: 50%;
+        border: 2px dashed #262626;
+        vertical-align: middle;
+      }
     </style>
     <meta charset="utf-8" />
     <meta
@@ -49,7 +57,10 @@
     />
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body>
+  <body onload="myfunc()">
+    <div id="loader">
+    <img src="images/logo.png" alt="Website LOGO" width="150px" height="150px">
+    </div>
     <div class="wrapper d-flex align-items-stretch">
       <nav id="sidebar">
         <div class="p-4 pt-5">
@@ -116,7 +127,7 @@
               </ul>
             </li>
             <li>
-              <a href="#">Online Contests</a>
+              <a href="web.php">Online Contests</a>
             </li>
             <li>
               <a href="testSkill.php">Test Your Skills</a>
@@ -196,7 +207,7 @@
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
       window.onload = function()
       {
         var hidesidebar = document.getElementById('sidebar');
@@ -215,7 +226,14 @@
           }
         };
       };
-    </script>
+    </script> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      var preloader = document.getElementById('loader');
+      function myfunc()
+      {
+        preloader.style.display = 'none';
+      }
+    </script>
   </body>
 </html>
