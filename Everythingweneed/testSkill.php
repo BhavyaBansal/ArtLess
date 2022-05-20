@@ -86,7 +86,11 @@ else{
             background-color: transparent;
             -webkit-text-decoration-skip: objects;
         }
-        
+        .shadoww .card
+        {
+             box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+             border: none;
+        }
         a:hover {
             text-decoration: none;
             color: #233dd2;
@@ -744,23 +748,24 @@ else{
     <?php include 'Nav.php' ?>
     <div class="main-content  mb-0 p-0">
         <div class="header mb-0 pb-8 pt-5 pt-md-3">
-            <div class=" mb-0 container-fluid ">
-                <h2 class="mb-5  text-white text-center bg-gradient-primary">Free Online Placement Preparation Tests</h2>
+            <div class=" mb-0 container-fluid">
+                <h2 class="mb-5 text-white text-center bg-gradient-primary" style="border-radius:5px;
+                box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;">Free Online Placement Preparation Tests</h2>
                 <div class="header-body ">
-                    <div class="row ">
-                        <div class="col-xl-4 col-lg-3 col-md-6 mb-3">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-3 col-md-6 mb-3 shadoww">
                             <div class="card card-stats mb-4 mb-xl-0">
                                 <div class="card-body">
                                     <div class="row">
                                         <div class="col">
                                             <h4 class="text-white card-title text-uppercase  mb-0">DS & Algo</h4>
-                                            <br><span class=" text-danger text-nowrap">Score</span>
+                                            <br><span class=" text-white text-nowrap">Score</span>
                                             <span class="text-success mr-2"><i class="fa fa-arrow-up"></i>OO</span>
                                             </p>
                                         </div>
                                         <div class="col-auto mt-0">
                                             <div class="icon icon-shape bg-danger text-white rounded-circle shadow">
-                                                <i class="fas fa-solid fa-code"></i>
+                                                <i class="fas fa-code-branch" style="font-size: 20px;"></i>
                                             </div>
                                         </div>
                                     </div>
@@ -774,7 +779,7 @@ else{
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-4 col-lg-3 col-md-6 mb-3">
+                        <div class="col-xl-4 col-lg-3 col-md-6 mb-3 shadoww">
                             <div class="card text-white card-stats mb-4 mb-xl-0">
                                 <div class="card-body">
                                     <div class="row">
@@ -786,7 +791,8 @@ else{
                                         </div>
                                         <div class="col-auto mt-0">
                                             <div class="icon icon-shape bg-danger text-white rounded-circle shadow">
-                                                <i class=" fas fa-solid fa-desktop"></i>
+                                                <!-- <i class=" fas fa-solid fa-desktop"></i> -->
+                                                <i class="fas fa-desktop" style="font-size: 20px;"></i>
                                             </div>
                                         </div>
                                     </div>
@@ -800,7 +806,7 @@ else{
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-4 col-lg-3 col-md-6 mb-3">
+                        <div class="col-xl-4 col-lg-3 col-md-6 mb-3 shadoww">
                             <div class="card bg-dark text-white card-stats mb-4 mb-xl-0">
                                 <div class="card-body">
                                     <div class="row">
@@ -812,7 +818,8 @@ else{
                                         </div>
                                         <div class="col-auto mt-0">
                                             <div class="icon icon-shape bg-danger text-white rounded-circle shadow">
-                                                <i class="fas fa-solid fa-code"></i>
+                                                <!-- <i class="fas fa-solid fa-code"></i> -->
+                                                <i class="fas fa-desktop" style="font-size: 20px;"></i>
                                             </div>
                                         </div>
                                     </div>
@@ -826,19 +833,20 @@ else{
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-4 col-lg-3 col-md-6 mb-3">
+                        <div class="col-xl-4 col-lg-3 col-md-6 mb-3 shadoww">
                             <div class="card bg-dark text-white card-stats mb-4 mb-xl-0">
                                 <div class="card-body">
                                     <div class="row">
                                         <div class="col">
-                                            <h4 class="text-white card-title text-uppercase  mb-0">OPPs</h4>
+                                            <h4 class="text-white card-title text-uppercase  mb-0">OOPS</h4>
                                             <br><span class="text-nowrap">Score</span>
                                             <span class="text-success mr-2"><i class="fa fa-arrow-up"></i>00</span>
                                             </p>
                                         </div>
                                         <div class="col-auto mt-0">
                                             <div class="icon icon-shape bg-danger text-white rounded-circle shadow">
-                                                <i class="fas fa-solid fa-code"></i>
+                                                <!-- <i class="fas fa-solid fa-code"></i> -->
+                                                <i class="fas fa-code" style="font-size: 20px;"></i>
                                             </div>
                                         </div>
                                     </div>
@@ -852,7 +860,7 @@ else{
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-4 col-lg-3 col-md-6 mb-3">
+                        <div class="col-xl-4 col-lg-3 col-md-6 mb-3 shadoww">
                             <div class="card bg-dark text-white card-stats mb-4 mb-xl-0">
                                 <div class="card-body">
                                     <div class="row">
@@ -864,7 +872,8 @@ else{
                                         </div>
                                         <div class="col-auto mt-0">
                                             <div class="icon icon-shape bg-danger text-white rounded-circle shadow">
-                                                <i class="fas fa-solid fa-code"></i>
+                                                <!-- <i class="fas fa-solid fa-code"></i> -->
+                                                <i class="fas fa-solid fa-network-wired" style="font-size: 20px;"></i>
                                             </div>
                                         </div>
                                     </div>
@@ -878,7 +887,7 @@ else{
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-4 col-lg-3 col-md-6 mb-3">
+                        <div class="col-xl-4 col-lg-3 col-md-6 mb-3 shadoww">
                             <div class="card bg-dark text-white card-stats mb-4 mb-xl-0">
                                 <div class="card-body">
                                     <div class="row">
@@ -890,7 +899,8 @@ else{
                                         </div>
                                         <div class="col-auto mt-0">
                                             <div class="icon icon-shape bg-danger text-white rounded-circle shadow">
-                                                <i class="fas fa-solid fa-code"></i>
+                                                <!-- <i class="fas fa-solid fa-code"></i> -->
+                                                <i class="fas fa-solid fa-database" style="font-size: 20px;"></i>
                                             </div>
                                         </div>
                                     </div>
@@ -904,7 +914,7 @@ else{
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-4 col-lg-3 col-md-6 mb-3">
+                        <div class="col-xl-4 col-lg-3 col-md-6 mb-3 shadoww">
                             <div class="card bg-dark text-white card-stats mb-4 mb-xl-0">
                                 <div class="card-body">
                                     <div class="row">
@@ -916,7 +926,8 @@ else{
                                         </div>
                                         <div class="col-auto mt-0">
                                             <div class="icon icon-shape bg-danger text-white rounded-circle shadow">
-                                                <i class="fas fa-solid fa-code"></i>
+                                                <!-- <i class="fas fa-solid fa-code"></i> -->
+                                                <i class="fas fa-solid fa-gears" style="font-size: 20px;"></i>
                                             </div>
                                         </div>
                                     </div>
@@ -930,7 +941,7 @@ else{
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-4 col-lg-3 col-md-6 mb-3">
+                        <div class="col-xl-4 col-lg-3 col-md-6 mb-3 shadoww">
                             <div class="card bg-dark text-white card-stats mb-4 mb-xl-0">
                                 <div class="card-body">
                                     <div class="row">
@@ -942,7 +953,8 @@ else{
                                         </div>
                                         <div class="col-auto mt-0">
                                             <div class="icon icon-shape bg-danger text-white rounded-circle shadow">
-                                                <i class="fas fa-solid fa-code"></i>
+                                                <!-- <i class="fas fa-solid fa-code"></i> -->
+                                                <i class="fas fa-solid fa-brain" style="font-size: 20px;"></i>
                                             </div>
                                         </div>
                                     </div>

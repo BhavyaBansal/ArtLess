@@ -3,6 +3,13 @@
   <head>
     <title>Home</title>
     <style>
+      *{
+        /* font-family: 'Roboto Slab', serif!important; */
+        font-family: 'Grape Nuts', cursive;
+      }
+      h1,h2,h3,h4,h5,h6{
+        font-family: 'Grape Nuts', cursive!important;
+      }
       .list-unstyled a {
         font-size: 12px;
         letter-spacing: 0.5px;
@@ -13,6 +20,9 @@
       .navbar{
         padding: 5px!important;
         margin-bottom: 7px!important;
+      }
+      #sidebar{
+        overflow-wrap: break-word;
       }
       p.navlink{
         margin:0px!important;
@@ -34,8 +44,12 @@
         top: calc(50% - 75px);
         /* bottom: 50%; */
         border-radius: 50%;
-        border: 2px dashed #262626;
+        /* border: 2px dashed #262626; */
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
         vertical-align: middle;
+      }
+      #sidebar img{
+        box-shadow: rgba(192,192,192,0.5) 0px 1px 4px;
       }
     </style>
     <meta charset="utf-8" />
@@ -59,11 +73,12 @@
   </head>
   <body onload="myfunc()">
     <div id="loader">
-    <img src="images/logo.png" alt="Website LOGO" width="150px" height="150px">
-    </div>
-    <div class="wrapper d-flex align-items-stretch">
-      <nav id="sidebar">
-        <div class="p-4 pt-5">
+    <img src="images/Geek.gif" alt="Website LOGO" width="150px" height="150px">
+  </div>
+  <div class="wrapper d-flex align-items-stretch">
+    <nav id="sidebar">
+        <img src="images/Geek.gif" alt="Website LOGO" width="100px" height="100px" style="border-radius: 50%;margin-left:100px;margin-top:20px;position:fixed">
+        <div class="pr-4 pl-4"  style="position: fixed;width:270px;padding-top:100px">
           <ul class="list-unstyled mb-5">
             <li>
               <a href="index.php">Home</a>
@@ -145,7 +160,7 @@
               <a href="login.php">Login</a>
             </li>
             <li>
-              <a href="register.php">SignIn</a>
+              <a href="register.php">SignUp</a>
             </li>
           </ul>
         </div>

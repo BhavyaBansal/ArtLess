@@ -6,10 +6,10 @@
   <title>Home</title>
   <style>
     .carousel-item img {
-      /* height: 350px;
-      width: auto!important; */
+      height: 400px;
+      /* width: auto!important;
     width: 100%!important;
-     height:auto!important; 
+     height:auto!important;  */
     }
 
     /* Cards CSS */
@@ -80,7 +80,7 @@
     </button>
   </div>
 
-
+  
   <div class="box">
     <div class="container">
       <div class="row">
@@ -88,9 +88,10 @@
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 
           <div class="box-part text-center">
-
+            
             <!-- <i class="fa fa-instagram fa-3x" aria-hidden="true"></i> -->
-            <img src="images/dsa.png" alt="Datastructures and Algorithms" width="50px" height="50px">
+            <!-- <img src="images/dsa.png" alt="Datastructures and Algorithms" width="50px" height="50px"> -->
+          <i class="fas fa-code-branch" style="font-size: 30px;"></i>
           <div class="title">
             <h5>Datastructures & Algorithms</h5>
           </div>
@@ -106,16 +107,17 @@
           <div class="box-part text-center">
 
             <!-- <i class="fa fa-twitter fa-3x" aria-hidden="true"></i> -->
-            <img src="images/os.png" alt="Operating System" width="50px" height="50px">
+            <!-- <img src="images/os.png" alt="Operating System" width="50px" height="50px"> -->
+            <i class="fas fa-desktop" style="font-size: 30px;"></i>
             <div class="title">
               <h5>Operating System</h5>
             </div>
-
+            
             <div class="text">
               <span>To Learn Operating System Click On The Below Link</span>
             </div>
 
-            <a href="#">Learn More</a>
+            <a href="os.php">Learn OS?</a>
 
           </div>
         </div>
@@ -125,7 +127,9 @@
           <div class="box-part text-center">
 
             <!-- <i class="fa fa-facebook fa-3x" aria-hidden="true"></i> -->
-            <img src="images/cd.jpg" alt="Compiler Design" width="50px" height="50px">
+            <!-- <img src="images/cd.jpg" alt="Compiler Design" width="30px" height="30px"> -->
+            <!-- <i class="las la-laptop-code" style="font-size: 30px;"></i> -->
+            <i class="fas fa-desktop" style="font-size: 30px;"></i>
             <div class="title">
               <h5>Compiler Design</h5>
             </div>
@@ -134,7 +138,7 @@
               <span>To Learn Compiler Design Click On The Below Link</span>
             </div>
 
-            <a href="#">Learn More</a>
+            <a href="#">Learn CD?</a>
 
           </div>
         </div>
@@ -144,7 +148,8 @@
           <div class="box-part text-center">
 
             <!-- <i class="fa fa-pinterest-p fa-3x" aria-hidden="true"></i> -->
-            <img src="images/oops.webp" alt="Object Oriented Programming" width="50px" height="50px">
+            <!-- <img src="images/oops.webp" alt="Object Oriented Programming" width="50px" height="50px"> -->
+            <i class="fas fa-code" style="font-size: 30px;"></i>
 
             <div class="title">
               <h5>Object Oriented Programming</h5>
@@ -154,7 +159,7 @@
               <span>To Learn Object Oriented Programming Click On The Below Link</span>
             </div>
 
-            <a href="#">Learn More</a>
+            <a href="oops.php">Learn OOPS?</a>
 
           </div>
         </div>
@@ -164,7 +169,8 @@
           <div class="box-part text-center">
 
             <!-- <i class="fa fa-pinterest-p fa-3x" aria-hidden="true"></i> -->
-            <img src="images/cn.png" alt="Computer Networks" width="50px" height="50px">
+            <!-- <img src="images/cn.png" alt="Computer Networks" width="50px" height="50px"> -->
+            <i class="fas fa-solid fa-network-wired" style="font-size: 30px;"></i>
 
             <div class="title">
               <h5>Computer Networks</h5>
@@ -174,7 +180,7 @@
               <span>To Learn Computer Networks Click On The Below Link</span>
             </div>
 
-            <a href="#">Learn More</a>
+            <a href="cn.php">Learn CN?</a>
 
           </div>
         </div>
@@ -183,8 +189,9 @@
           <div class="box-part text-center">
 
             <!-- <i class="fa fa-pinterest-p fa-3x" aria-hidden="true"></i> -->
-            <img src="images/dbms.png" alt="Database Management System" width="50px" height="50px">
-
+            <!-- <img src="images/dbms.png" alt="Database Management System" width="50px" height="50px"> -->
+            <i class="fas fa-solid fa-database" style="font-size: 30px;"></i>
+            
             <div class="title">
               <h5>Database Management System</h5>
             </div>
@@ -193,26 +200,27 @@
               <span>Database Management System</span>
             </div>
 
-            <a href="#">Learn More</a>
+            <a href="dbms.php">Learn DBMS?</a>
 
           </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-
+          
           <div class="box-part text-center">
-
+            
             <!-- <i class="fa fa-pinterest-p fa-3x" aria-hidden="true"></i> -->
-            <img src="images/sd.webp" alt="System Design" width="50px" height="50px">
-
+            <!-- <img src="images/sd.webp" alt="System Design" width="50px" height="50px"> -->
+            <i class="fas fa-solid fa-gears" style="font-size: 30px;"></i>
+            
             <div class="title">
               <h5>System Design</h5>
             </div>
-
+            
             <div class="text">
               <span>To Learn System Design Click On The Below Link</span>
             </div>
-
-            <a href="#">Learn More</a>
+            
+            <a href="#">Learn SD?</a>
 
           </div>
         </div>
@@ -221,8 +229,9 @@
           <div class="box-part text-center">
 
             <!-- <i class="fa fa-pinterest-p fa-3x" aria-hidden="true"></i> -->
-            <img src="images/aptitude.png" alt="Aptitude" width="50px" height="50px">
-
+            <!-- <img src="images/aptitude.png" alt="Aptitude" width="50px" height="50px"> -->
+            <i class="fas fa-solid fa-brain" style="font-size: 30px;"></i>
+            
             <div class="title">
               <h5>Aptitude</h5>
             </div>
@@ -231,7 +240,7 @@
               <span>To Learn Aptitude Click On The Below Link</span>
             </div>
 
-            <a href="#">Learn More</a>
+            <a href="#">Learn Aptitude?</a>
 
           </div>
         </div>
